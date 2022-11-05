@@ -1,0 +1,99 @@
+body {
+    
+    size: 100%;
+    margin-left: 0%;
+    margin-top: 0px;
+    background-color: teal;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+#colorDisplay {
+	font-size: 200%;
+}
+td {
+    width: 150px;
+    height: 150px;
+    
+    
+  }
+  table {
+    margin: 5px auto;
+  }
+  .vert {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+  .hori {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+#board {
+    margin-top: 5%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+    font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+}
+#player1,#player2
+{
+    display: inline-block;
+    font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+}
+button {
+    display: inline-block;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.winnerClass
+{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+	color: rgb(70, 180, 103);
+}

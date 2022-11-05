@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Game </title>
+    <script name="text/javascript" src='game.js'>
+    </script>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  
+  <body>		
+    <h1>
+      Tic
+      <br>
+      <span id="colorDisplay">Tac</span> 
+      <br>
+      Toe
+    </h1>
+    
+    <div id="stripe">
+        <button id="btn1">Player 1 Turn</button>
+        <span id="player1"></span>
+        <span id="message"></span>
+        <span id="message"></span>
+        <button id="btn2"></button>
+        <span id="player2"></span>
+        
+    </div>
+
+	<div id="board">
+    <table>
+      <tr>
+        <td onclick="play(this)" id="00">
+          
+        </td>
+        <td onclick="play(this)" id="01" class="vert">
+         
+        </td>
+        <td onclick="play(this)" id="02">
+          
+        </td>
+      </tr>
+      <tr>
+        <td onclick="play(this)" id="10" class="hori">
+         
+        </td>
+        <td onclick="play(this)" id="11" class="vert hori">
+          
+        </td>
+        <td onclick="play(this)" id="12" class="hori">
+          
+        </td>
+      </tr>
+      <tr>
+        <td onclick="play(this)" id="20">
+          
+        </td>
+        <td onclick="play(this)" id="21" class="vert">
+          
+        </td>
+        <td onclick="play(this)" id="22">
+          
+        </td>
+      </tr>
+    </table>
+  </div>
+	 
+  </body>
+</html>
