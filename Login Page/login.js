@@ -7,7 +7,7 @@ function validate()
     var pass=document.getElementById("pass").value;
     if(name===validName && pass===validPass)
     {
-        location.replace("https://www.google.in/")
+        location.replace("/landingPage/index.html")
 
     }
     else
